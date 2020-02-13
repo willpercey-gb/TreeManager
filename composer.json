@@ -1,14 +1,15 @@
 {
-  "name": "uwebpro/substring",
+  "name": "uwebpro/treemanager",
   "type": "library",
-  "description": "A simple method for getting sub-strings",
+  "description": "A library for processing XML, DOM and other tree languages",
   "keywords": [
-    "sub",
-    "string",
-    "substring",
+    "xml",
+    "dom",
+    "scraper",
+    "scrape",
     "uwebpro"
   ],
-  "homepage": "https://github.com/willpercey-gb/substring",
+  "homepage": "https://github.com/willpercey-gb/TreeManager",
   "license": "MIT",
   "authors": [
     {
