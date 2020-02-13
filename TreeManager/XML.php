@@ -18,11 +18,6 @@ use SimpleXMLElement;
 
 use UWebPro\Tree\Interfaces\XmlInterface;
 
-/**
- * Traits
- */
-
-use \UWebPro\Tree\Traits\JSON;
 
 /**
  * Class XMLDOM
@@ -32,7 +27,6 @@ use \UWebPro\Tree\Traits\JSON;
  */
 class XML extends TreeManager implements XmlInterface
 {
-    use JSON;
     protected $links;
 
     /**

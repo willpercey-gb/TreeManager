@@ -3,27 +3,25 @@
 
 namespace UWebPro\Tree;
 
+use UWebPro\Tree\Traits\DOM;
+
 class WebRender
 {
-    use \UWebPro\Tree\Traits\DOM;
-    
-    use \UWebPro\Tree\Traits\JSX{
-        asHTML as jsxToHTML;
-    }
+    use DOM;
 
     public function renderXML($xml)
     {
-        $this->asHTML($xml);
+        return $this->asHTML($xml);
     }
 
     public function renderDOM($dom)
     {
-        $this->asHTML($dom);
+        return $this->asHTML($dom);
     }
 
     public function renderJSX($jsx)
     {
-        return $this->jsxToHTML($jsx);
+//        return $this->jsxToHTML($jsx);
     }
 }
 
