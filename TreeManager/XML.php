@@ -120,7 +120,7 @@ class XML extends TreeManager implements XmlInterface
     /**
      * @return null|DOMElement
      */
-    public function getDOM(): ?DOMElement
+    public function getDOM()
     {
         if ($this->dom === null) {
             $this->dom = dom_import_simplexml($this->xml ?? null);
